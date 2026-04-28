@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gem Drop Puzzle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="hud">
+        <h1>Gem Drop Puzzle</h1>
+        <div class="stats">
+          <p>Score: <span id="score">0</span></p>
+          <p>Best: <span id="best">0</span></p>
+          <p>Moves: <span id="moves">30</span></p>
+          <p>Time: <span id="time">90</span>s</p>
+        </div>
+      </header>
+
+      <section class="board-wrap">
+        <canvas id="board" width="480" height="480" aria-label="パズル盤面"></canvas>
+      </section>
+
+      <footer class="controls">
+        <div class="actions">
+          <button id="restart">リスタート</button>
+          <button id="hint" class="ghost">ヒント</button>
+          <button id="shuffle" class="ghost">シャッフル</button>
+        </div>
+        <p id="status">隣り合うジェムを入れ替えて、3つ以上揃えよう！</p>
+      </footer>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
