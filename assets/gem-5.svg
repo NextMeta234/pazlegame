@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="gem 5">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#ffe6f4'/>
+      <stop offset="100%" stop-color="#ff5eb0'/>
+    </radialGradient>
+  </defs>
+  <polygon points="50,6 88,32 74,84 26,84 12,32" fill="url(#g)" stroke="#ffffffaa" stroke-width="4"/>
+</svg>
